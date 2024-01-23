@@ -1,0 +1,48 @@
+ :root {
+  --primary-colour: ;
+  --secondary-colour: ;
+  --heading-font-family: 'DM Serif Display', serif;
+  --paragraph-font-family: 'Poppins', sans-serif;
+  --background-colour:rgba(115, 114, 114, 0.057) ;
+ }
+ 
+ body {
+  background-color: var(--background-colour);
+ }
+ h1 {
+  font-family: var(--heading-font-family);
+  font-size: 80px;
+ }
+ 
+ p {
+  font-family: var(--paragraph-font-family);
+  font-size: 30px;
+ }
+
+ .name-bio {
+
+  margin-top: 225px;
+  padding-right: 50px;
+
+ }
+
+ .links {
+
+  text-align: right;
+  margin-top: 160px;
+  font-size: 50px;
+
+ }
+
+ .link-title {
+  font-family: var(--heading-font-family);
+  font-size: 90px;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+ }
+
+ .link-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+ }
+

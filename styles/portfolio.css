@@ -2,7 +2,7 @@
   --primary-colour: ;
   --secondary-colour: ;
   --heading-font-family: 'DM Serif Display', serif;
-  --paragraph-font-family: 'Poppins', sans-serif;
+  --paragraph-font-family: 'Noto Serif JP', serif;
   --background-colour:rgba(115, 114, 114, 0.057) ;
  }
  
@@ -16,7 +16,16 @@
  
  p {
   font-family: var(--paragraph-font-family);
+  
+ }
+
+ .job-title {
   font-size: 30px;
+ }
+
+ .location {
+  font-size: 18px;
+  line-height: 1.5px;
  }
 
  .name-bio {

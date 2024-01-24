@@ -9,6 +9,7 @@
  body {
   background-color: var(--background-colour);
  }
+
  h1 {
   font-family: var(--heading-font-family);
   font-size: 80px;
@@ -16,7 +17,6 @@
  
  p {
   font-family: var(--paragraph-font-family);
-  
  }
 
  .job-title {
@@ -55,74 +55,73 @@
   text-decoration: underline;
  }
 
-@media (max-width: 375px) {
-  body {
-    text-align: center;
-    margin: 0 auto;
-  }
+@media (max-width: 770px) {
   
   h1 {
     font-size: 50px;
+    text-align: left;
+    margin-right: 3px;
   }
 
   .job-title {
     font-size: 20px;
+    text-align: left;
   }
 
   .location {
     font-size: 15px;
+    text-align: left;
   }
+
   .links {
-    text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     line-height: 1.2;
+    text-align: left;
   }
   
   .link-title {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .name-bio {
-    margin-top: 70px;
-    padding: 0px;
+    margin-top: 30px;
+    text-align: left;
   }
 
 }
 
-@media (max-width: 912px) {
-  body {
-    text-align: left;
-    margin: 0 auto;
-  }
+@media (min-width: 770px) and (max-width: 1012px) {
   
   h1 {
-    font-size: 40px;
-    margin-left: 30px;
-    margin-top: 10px;
+    font-size: 45px;
+    text-align: left;
+    margin-right: 3px;
   }
 
   .job-title {
-    font-size: 15px;
-    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
   }
 
   .location {
-    font-size: 13px;
-    margin-left: 30px;
+    font-size: 15px;
+    text-align: left;
   }
+
   .links {
-    text-align: right;
-    margin-top: 50px;
+    margin-top: 70px;
     line-height: 1.2;
+    text-align: right;
   }
   
   .link-title {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .name-bio {
-    margin-top: 70px;
-    padding: 0px;
+    margin-top: 80px;
+    text-align: right;
   }
 
 }
+

@@ -55,3 +55,74 @@
   text-decoration: underline;
  }
 
+@media (max-width: 375px) {
+  body {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .location {
+    font-size: 15px;
+  }
+  .links {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.2;
+  }
+  
+  .link-title {
+    font-size: 60px;
+  }
+
+  .name-bio {
+    margin-top: 70px;
+    padding: 0px;
+  }
+
+}
+
+@media (max-width: 912px) {
+  body {
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .job-title {
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .location {
+    font-size: 13px;
+    margin-left: 30px;
+  }
+  .links {
+    text-align: right;
+    margin-top: 50px;
+    line-height: 1.2;
+  }
+  
+  .link-title {
+    font-size: 40px;
+  }
+
+  .name-bio {
+    margin-top: 70px;
+    padding: 0px;
+  }
+
+}

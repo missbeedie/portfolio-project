@@ -14,6 +14,28 @@
   font-family: var(--heading-font-family);
   font-size: 80px;
  }
+
+ .about-page {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+ }
+ 
+ .about-text {
+  margin-top: 100px;
+ }
+
+ .about-tagline {
+  margin-bottom: 30px;
+ }
+
+ .about-image {
+  margin-top: 10px;
+ }
+
+ h2 {
+  font-family: var(--paragraph-font-family);
+ }
  
  p {
   font-family: var(--paragraph-font-family);
@@ -54,6 +76,17 @@
   cursor: pointer;
   text-decoration: underline;
  }
+
+ img {
+  max-width: 450px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+
+ }
+
+
+
 
 @media (max-width: 770px) {
   
